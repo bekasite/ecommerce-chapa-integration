@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server';
 
 const CHAPA_URL = 'https://api.chapa.co/v1/transaction/initialize';
-const CHAPA_SECRET_KEY = process.env.NEXT_PUBLIC_CHAPA_SECRET_KEY;
+const CHAPA_SECRET_KEY = process.env.NEXT_CHAPA_SECRET_KEY;
 
 export async function POST(request) {
   try {
@@ -25,7 +25,7 @@ export async function POST(request) {
       return NextResponse.json(
         { 
           error: 'Invalid Chapa configuration',
-          message: 'Please set a valid NEXT_PUBLIC_CHAPA_SECRET_KEY in your environment variables'
+          message: 'Please set a valid NEXT_CHAPA_SECRET_KEY in your environment variables'
         },
         { status: 500 }
       );

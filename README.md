@@ -18,6 +18,10 @@ A fully functional e-commerce website with Chapa payment integration built with 
 - **State Management:** React Context API
 - **Storage:** Local Storage
 
+## dotenv
+- **NEXT_PUBLIC_BASE_URL**
+- **NEXT_CHAPA_SECRET_KEY**
+
 ## 📦 Installation
 
 ```bash
@@ -25,3 +29,4 @@ git clone https://github.com/bekasite/ecommerce-chapa-integration.git
 cd ecommerce-chapa-integration
 npm install
 npm run dev
+
