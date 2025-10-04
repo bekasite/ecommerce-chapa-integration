@@ -22,6 +22,6 @@ A fully functional e-commerce website with Chapa payment integration built with 
 
 ```bash
 git clone https://github.com/bekasite/ecommerce-chapa-integration.git
-cd chapa-ecommerce
+cd ecommerce-chapa-integration
 npm install
 npm run dev
