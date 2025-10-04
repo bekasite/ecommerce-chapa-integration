@@ -114,7 +114,7 @@ export default function Checkout() {
           <div className="bg-yellow-100 border border-yellow-400 rounded-lg p-4 mb-6">
             <h3 className="font-bold text-yellow-800">Development Mode</h3>
             <p className="text-yellow-700">
-              If real payments aren't working, try the demo mode to test the checkout flow.
+              If real payments aren&apos;t working, try the demo mode to test the checkout flow.
             </p>
           </div>
 

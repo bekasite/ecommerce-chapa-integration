@@ -74,7 +74,7 @@ export default function TestPayment() {
         <h3 className="font-bold mb-2">Troubleshooting Steps:</h3>
         <ol className="list-decimal list-inside space-y-2">
           <li>Check if your Chapa secret key is correct in .env.local</li>
-          <li>Make sure you've restarted the dev server after changing .env.local</li>
+          <li>Make sure you&apos;ve restarted the dev server after changing .env.local</li>
           <li>Verify your Chapa account is active and has test mode enabled</li>
           <li>Check browser console for detailed error messages</li>
         </ol>
