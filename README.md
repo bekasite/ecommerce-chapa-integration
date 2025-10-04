@@ -21,6 +21,8 @@ A fully functional e-commerce website with Chapa payment integration built with 
 ## dotenv
 - **NEXT_PUBLIC_BASE_URL**
 - **NEXT_CHAPA_SECRET_KEY**
+## chapa Testing Mobiles
+[https://developer.chapa.co/test/testing-mobile]
 
 ## 📦 Installation
 
